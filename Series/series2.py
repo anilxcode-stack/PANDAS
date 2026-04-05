@@ -1,0 +1,32 @@
+""" Accessing elements of Series """
+
+#todo 1). Position-based Indexing
+
+# import pandas as pd
+# import numpy as np
+
+# data = np.array(['g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's'])
+
+# ser = pd.Series(data)
+
+# print(ser[:5])
+
+#! _____________________________________________________________
+
+#todo 2). Label-based Indexing
+
+# import pandas as pd
+# import numpy as np
+
+# data = np.array(['g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's'])
+
+# ser = pd.Series(data, index = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22])
+# print(ser[16])
+
+#! ____________________________________________________________
+
+""" Indexing a Series using .loc[] """
+
+import pandas as pd
+
+df = pd.read_csv
