@@ -115,26 +115,26 @@ Case-sensitive by default
 
 # Another code example
 
-import pandas as pd
+# import pandas as pd
 
-# Step 1: Create DataFrame
-data = {
-    'Name' :['Anil', 'Rahul', 'Priya', 'Sneha', 'Amit', 'Neha'],
-    'Department' : ['CSE', 'IT', 'CSE', 'ECE', 'IT', 'CSE'],
-    'Marks': [85, 78, 92, 70, 88, 95]
-}
+# # Step 1: Create DataFrame
+# data = {
+#     'Name' :['Anil', 'Rahul', 'Priya', 'Sneha', 'Amit', 'Neha'],
+#     'Department' : ['CSE', 'IT', 'CSE', 'ECE', 'IT', 'CSE'],
+#     'Marks': [85, 78, 92, 70, 88, 95]
+# }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-print("Original DataFrame:\n")
-print(df)
+# print("Original DataFrame:\n")
+# print(df)
 
-# Step 2 : Filter + Sort
-result = df[df['Marks'] > 75].sort_values(
-    by=['Department', 'Marks'],
-    ascending=[True, False]
-)
+# # Step 2 : Filter + Sort
+# result = df[df['Marks'] > 75].sort_values(
+#     by=['Department', 'Marks'],
+#     ascending=[True, False]
+# )
 
-# Step 3: Print Result
-print("\nFiltered and Sorted Data:\n")
-print(result)
+# # Step 3: Print Result
+# print("\nFiltered and Sorted Data:\n")
+# print(result)
