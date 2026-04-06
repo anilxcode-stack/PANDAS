@@ -19,7 +19,7 @@ left_index, right_index → Merge using index
 # Types of Merge 
 
 """ Inner JOIN """
-# Keeps only matching values from btoh DataFrames
+# Keeps only matching values from bothh DataFrames
 
 # import pandas as pd
 
