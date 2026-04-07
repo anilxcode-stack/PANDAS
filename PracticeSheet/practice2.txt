@@ -1,0 +1,108 @@
+🧪 Pandas Skill Assessment Tasks
+🟢 Level 1: Beginner (Fundamentals Check)
+Task 1: Data Inspection
+
+Create this DataFrame:
+
+import pandas as pd
+
+data = {
+    "Name": ["Anil", "Rahul", "Priya", "Sita", "Karan"],
+    "Age": [20, 21, 19, 22, 20],
+    "Marks": [85, 90, 78, 92, 88]
+}
+df = pd.DataFrame(data)
+
+👉 Do:
+
+Show first 3 rows
+Get column names
+Get summary stats
+Check data types
+Task 2: Filtering
+
+👉 Do:
+
+Students with Marks > 85
+Students age == 20
+Task 3: Basic Column Operations
+
+👉 Do:
+
+Add new column: Grade (Marks > 85 → "A", else "B")
+Find average marks
+🟡 Level 2: Intermediate (Real Data Handling)
+Task 4: Missing + Dirty Data
+import numpy as np
+
+data = {
+    "Name": ["Anil", "Rahul", "Priya", "Sita", "Karan"],
+    "Marks": [85, "NA", 92, -1, np.nan],
+    "Attendance": [90, 85, "?", 88, 92]
+}
+df = pd.DataFrame(data)
+
+👉 Clean this dataset:
+
+Replace "NA" and "?" with NaN
+Replace negative marks with NaN
+Convert columns to numeric
+Fill missing values with mean
+Task 5: GroupBy (VERY IMPORTANT)
+data = {
+    "Department": ["IT", "IT", "HR", "HR", "Finance"],
+    "Salary": [50000, 60000, 45000, 48000, 70000]
+}
+df = pd.DataFrame(data)
+
+👉 Do:
+
+Average salary per department
+Maximum salary per department
+Task 6: Sorting & Ranking
+
+👉 Do:
+
+Sort by Salary descending
+Add Rank column
+🔵 Level 3: Advanced (Industry-Level Thinking)
+Task 7: Pivot Table (Real Use Case)
+data = {
+    "Name": ["A", "A", "B", "B", "C"],
+    "Month": ["Jan", "Feb", "Jan", "Feb", "Jan"],
+    "Sales": [200, 250, 300, 350, 400]
+}
+df = pd.DataFrame(data)
+
+👉 Convert into:
+
+Name   Jan   Feb
+A      200   250
+B      300   350
+C      400   NaN
+Task 8: Merge / Join
+
+Create two DataFrames:
+
+df1 = pd.DataFrame({
+    "ID": [1, 2, 3],
+    "Name": ["Anil", "Rahul", "Priya"]
+})
+
+df2 = pd.DataFrame({
+    "ID": [1, 2, 4],
+    "Marks": [85, 90, 75]
+})
+
+👉 Do:
+
+Inner join
+Left join
+Task 9: Apply + Lambda (Critical Skill)
+
+👉 Do:
+
+Create a new column:
+Marks > 90 → "Excellent"
+80–90 → "Good"
+<80 → "Average
