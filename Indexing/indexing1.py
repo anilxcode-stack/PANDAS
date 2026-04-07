@@ -18,7 +18,7 @@ print("Dataset")
 """ Selecting Multiple Columns """
 
 # first = data[["Age", "College", "Salary"]]
-# print("\nNultiple Columns selected from Dataset")
+# print("\nMultiple Columns selected from Dataset")
 # print(first.head(5))
 
 # _______________________________________________________
